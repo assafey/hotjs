@@ -1,0 +1,283 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'request' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.6
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'request', null ]
+7 verbose cache add spec request
+8 silly cache add parsed spec { raw: 'request',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'request',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed request@*
+10 verbose addNamed "*" is a valid semver range for request
+11 silly addNameRange { name: 'request', range: '*', hasData: false }
+12 silly mapToRegistry name request
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/request
+16 verbose addNameRange registry:https://registry.npmjs.org/request not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/request
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 10:58:33 AM
+20 verbose request id 4fdde3037cae822e
+21 verbose etag "6F9RWBC5BR0BXTVMJY1YTJ2C9"
+22 http request GET https://registry.npmjs.org/request
+23 http 304 https://registry.npmjs.org/request
+24 silly get cb [ 304,
+24 silly get   { date: 'Thu, 20 Aug 2015 07:58:33 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"6F9RWBC5BR0BXTVMJY1YTJ2C9"',
+24 silly get     age: '40',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-lhr6325-LHR',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '2',
+24 silly get     'x-timer': 'S1440057513.562815,VS0,VE0',
+24 silly get     vary: 'Accept' } ]
+25 verbose etag https://registry.npmjs.org/request from cache
+26 verbose get saving request to /Users/assafey/.npm/registry.npmjs.org/request/.cache.json
+27 silly addNameRange number 2 { name: 'request', range: '*', hasData: true }
+28 silly addNameRange versions [ 'request',
+28 silly addNameRange   [ '0.10.0',
+28 silly addNameRange     '0.8.3',
+28 silly addNameRange     '0.9.0',
+28 silly addNameRange     '0.9.1',
+28 silly addNameRange     '0.9.5',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.9.0',
+28 silly addNameRange     '1.9.1',
+28 silly addNameRange     '1.9.2',
+28 silly addNameRange     '1.9.3',
+28 silly addNameRange     '1.9.5',
+28 silly addNameRange     '1.9.7',
+28 silly addNameRange     '1.9.8',
+28 silly addNameRange     '1.9.9',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.0.1',
+28 silly addNameRange     '2.0.2',
+28 silly addNameRange     '2.0.3',
+28 silly addNameRange     '2.0.4',
+28 silly addNameRange     '2.0.5',
+28 silly addNameRange     '2.1.0',
+28 silly addNameRange     '2.1.1',
+28 silly addNameRange     '2.2.0',
+28 silly addNameRange     '2.2.5',
+28 silly addNameRange     '2.2.6',
+28 silly addNameRange     '2.2.9',
+28 silly addNameRange     '2.9.0',
+28 silly addNameRange     '2.9.1',
+28 silly addNameRange     '2.9.2',
+28 silly addNameRange     '2.9.3',
+28 silly addNameRange     '2.9.100',
+28 silly addNameRange     '2.9.150',
+28 silly addNameRange     '2.9.151',
+28 silly addNameRange     '2.9.152',
+28 silly addNameRange     '2.9.153',
+28 silly addNameRange     '2.9.200',
+28 silly addNameRange     '2.9.201',
+28 silly addNameRange     '2.9.202',
+28 silly addNameRange     '2.9.203',
+28 silly addNameRange     '2.10.0',
+28 silly addNameRange     '2.11.0',
+28 silly addNameRange     '2.11.1',
+28 silly addNameRange     '2.11.2',
+28 silly addNameRange     '2.11.3',
+28 silly addNameRange     '2.11.4',
+28 silly addNameRange     '2.12.0',
+28 silly addNameRange     '2.14.0',
+28 silly addNameRange     '2.16.0',
+28 silly addNameRange     '2.16.2',
+28 silly addNameRange     '2.16.4',
+28 silly addNameRange     '2.16.6',
+28 silly addNameRange     '2.18.0',
+28 silly addNameRange     '2.19.0',
+28 silly addNameRange     '2.20.0',
+28 silly addNameRange     '2.21.0',
+28 silly addNameRange     '2.22.0',
+28 silly addNameRange     '2.23.0',
+28 silly addNameRange     '2.24.0',
+28 silly addNameRange     '2.25.0',
+28 silly addNameRange     '2.26.0',
+28 silly addNameRange     '2.27.0',
+28 silly addNameRange     '2.28.0',
+28 silly addNameRange     '2.29.0',
+28 silly addNameRange     '2.30.0',
+28 silly addNameRange     '2.31.0',
+28 silly addNameRange     '2.32.0',
+28 silly addNameRange     '2.33.0',
+28 silly addNameRange     '2.34.0',
+28 silly addNameRange     '2.35.0',
+28 silly addNameRange     '2.36.0',
+28 silly addNameRange     '2.37.0',
+28 silly addNameRange     '2.38.0',
+28 silly addNameRange     '2.39.0',
+28 silly addNameRange     '2.40.0',
+28 silly addNameRange     '2.41.0',
+28 silly addNameRange     '2.42.0',
+28 silly addNameRange     '2.43.0',
+28 silly addNameRange     '2.44.0',
+28 silly addNameRange     '2.45.0',
+28 silly addNameRange     '2.46.0',
+28 silly addNameRange     '2.47.0',
+28 silly addNameRange     '2.48.0',
+28 silly addNameRange     '2.49.0',
+28 silly addNameRange     '2.50.0',
+28 silly addNameRange     '2.51.0',
+28 silly addNameRange     '2.52.0',
+28 silly addNameRange     '2.53.0',
+28 silly addNameRange     '2.54.0',
+28 silly addNameRange     '2.55.0',
+28 silly addNameRange     '2.56.0',
+28 silly addNameRange     '2.57.0',
+28 silly addNameRange     '2.58.0',
+28 silly addNameRange     '2.59.0',
+28 silly addNameRange     '2.60.0',
+28 silly addNameRange     '2.61.0' ] ]
+29 silly addNamed request@2.61.0
+30 verbose addNamed "2.61.0" is a plain semver version for request
+31 silly mapToRegistry name request
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/request
+35 verbose addRemoteTarball https://registry.npmjs.org/request/-/request-2.61.0.tgz not in flight; adding
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.61.0.tgz',
+36 verbose addRemoteTarball   '6973cb2ac94885f02693f554eec64481d6013f9f' ]
+37 info retry fetch attempt 1 at 10:58:33 AM
+38 info attempt registry request try #1 at 10:58:33 AM
+39 http fetch GET https://registry.npmjs.org/request/-/request-2.61.0.tgz
+40 http fetch 200 https://registry.npmjs.org/request/-/request-2.61.0.tgz
+41 silly fetchAndShaCheck shasum 6973cb2ac94885f02693f554eec64481d6013f9f
+42 verbose addTmpTarball /var/folders/w1/pd8dfzcs077_lxwvwsspdqp40000gn/T/npm-3384-fa13db8c/registry.npmjs.org/request/-/request-2.61.0.tgz not in flight; adding
+43 verbose addTmpTarball already have metadata; skipping unpack for request@2.61.0
+44 silly cache afterAdd request@2.61.0
+45 verbose afterAdd /Users/assafey/.npm/request/2.61.0/package/package.json not in flight; writing
+46 verbose afterAdd /Users/assafey/.npm/request/2.61.0/package/package.json written
+47 silly install resolved [ { name: 'request',
+47 silly install resolved     description: 'Simplified HTTP request client.',
+47 silly install resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+47 silly install resolved     version: '2.61.0',
+47 silly install resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+47 silly install resolved     repository:
+47 silly install resolved      { type: 'git',
+47 silly install resolved        url: 'git+https://github.com/request/request.git' },
+47 silly install resolved     bugs: { url: 'http://github.com/request/request/issues' },
+47 silly install resolved     license: 'Apache-2.0',
+47 silly install resolved     engines: { node: '>=0.8.0' },
+47 silly install resolved     main: 'index.js',
+47 silly install resolved     dependencies:
+47 silly install resolved      { bl: '~1.0.0',
+47 silly install resolved        caseless: '~0.11.0',
+47 silly install resolved        extend: '~3.0.0',
+47 silly install resolved        'forever-agent': '~0.6.0',
+47 silly install resolved        'form-data': '~1.0.0-rc1',
+47 silly install resolved        'json-stringify-safe': '~5.0.0',
+47 silly install resolved        'mime-types': '~2.1.2',
+47 silly install resolved        'node-uuid': '~1.4.0',
+47 silly install resolved        qs: '~4.0.0',
+47 silly install resolved        'tunnel-agent': '~0.4.0',
+47 silly install resolved        'tough-cookie': '>=0.12.0',
+47 silly install resolved        'http-signature': '~0.11.0',
+47 silly install resolved        'oauth-sign': '~0.8.0',
+47 silly install resolved        hawk: '~3.1.0',
+47 silly install resolved        'aws-sign2': '~0.5.0',
+47 silly install resolved        stringstream: '~0.0.4',
+47 silly install resolved        'combined-stream': '~1.0.1',
+47 silly install resolved        isstream: '~0.1.1',
+47 silly install resolved        'har-validator': '^1.6.1' },
+47 silly install resolved     scripts:
+47 silly install resolved      { test: 'npm run lint && npm run test-ci && npm run test-browser',
+47 silly install resolved        'test-ci': 'taper tests/test-*.js',
+47 silly install resolved        'test-cov': 'istanbul cover tape tests/test-*.js',
+47 silly install resolved        'test-browser': 'node tests/browser/start.js',
+47 silly install resolved        lint: 'eslint lib/ *.js tests/ && echo Lint passed.' },
+47 silly install resolved     devDependencies:
+47 silly install resolved      { browserify: '~5.9.1',
+47 silly install resolved        'browserify-istanbul': '~0.1.3',
+47 silly install resolved        'buffer-equal': '0.0.1',
+47 silly install resolved        'codecov.io': '~0.1.2',
+47 silly install resolved        coveralls: '~2.11.2',
+47 silly install resolved        eslint: '0.18.0',
+47 silly install resolved        'function-bind': '~1.0.0',
+47 silly install resolved        istanbul: '~0.3.2',
+47 silly install resolved        karma: '~0.12.21',
+47 silly install resolved        'karma-browserify': '~3.0.1',
+47 silly install resolved        'karma-cli': '0.0.4',
+47 silly install resolved        'karma-coverage': '0.2.6',
+47 silly install resolved        'karma-phantomjs-launcher': '~0.1.4',
+47 silly install resolved        'karma-tap': '~1.0.1',
+47 silly install resolved        rimraf: '~2.2.8',
+47 silly install resolved        'server-destroy': '~1.0.0',
+47 silly install resolved        tape: '~3.0.0',
+47 silly install resolved        taper: '~0.4.0',
+47 silly install resolved        bluebird: '~2.9.21' },
+47 silly install resolved     gitHead: '8492d18add93af1214943ee12e25371f9f9adad3',
+47 silly install resolved     homepage: 'https://github.com/request/request#readme',
+47 silly install resolved     _id: 'request@2.61.0',
+47 silly install resolved     _shasum: '6973cb2ac94885f02693f554eec64481d6013f9f',
+47 silly install resolved     _from: 'request@*',
+47 silly install resolved     _npmVersion: '2.11.2',
+47 silly install resolved     _nodeVersion: '0.12.6',
+47 silly install resolved     _npmUser: { name: 'simov', email: 'simeonvelichkov@gmail.com' },
+47 silly install resolved     dist:
+47 silly install resolved      { shasum: '6973cb2ac94885f02693f554eec64481d6013f9f',
+47 silly install resolved        tarball: 'http://registry.npmjs.org/request/-/request-2.61.0.tgz' },
+47 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+47 silly install resolved     directories: {},
+47 silly install resolved     _resolved: 'https://registry.npmjs.org/request/-/request-2.61.0.tgz' } ]
+48 info install request@2.61.0 into /usr/local/lib
+49 info installOne request@2.61.0
+50 verbose installOne of request to /usr/local/lib not in flight; installing
+51 verbose lock using /Users/assafey/.npm/_locks/request-dc3502d0dc58f545.lock for /usr/local/lib/node_modules/request
+52 silly install write writing request 2.61.0 to /usr/local/lib/node_modules/request
+53 verbose unbuild lib/node_modules/request
+54 silly gentlyRm /usr/local/lib/node_modules/request is being purged from base /usr/local
+55 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/request
+56 verbose tar unpack /Users/assafey/.npm/request/2.61.0/package.tgz
+57 verbose tar unpacking to /usr/local/lib/node_modules/request
+58 silly gentlyRm /usr/local/lib/node_modules/request is being purged
+59 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/request
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 error tar.unpack untar error /Users/assafey/.npm/request/2.61.0/package.tgz
+62 verbose unlock done using /Users/assafey/.npm/_locks/request-dc3502d0dc58f545.lock for /usr/local/lib/node_modules/request
+63 verbose fstream_path /usr/local/lib/node_modules/request
+64 verbose fstream_type Directory
+65 verbose fstream_class DirWriter
+66 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/request'
+66 verbose stack     at Error (native)
+67 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+67 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+67 verbose fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+68 verbose cwd /Users/assafey/Documents/node.js/hotjs
+69 error Darwin 14.4.0
+70 error argv "node" "/usr/local/bin/npm" "install" "-g" "request"
+71 error node v0.12.6
+72 error npm  v2.11.2
+73 error path /usr/local/lib/node_modules/request
+74 error code EACCES
+75 error errno -13
+76 error Error: EACCES, mkdir '/usr/local/lib/node_modules/request'
+76 error     at Error (native)
+76 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/request']
+76 error   errno: -13,
+76 error   code: 'EACCES',
+76 error   path: '/usr/local/lib/node_modules/request',
+76 error   fstream_type: 'Directory',
+76 error   fstream_path: '/usr/local/lib/node_modules/request',
+76 error   fstream_class: 'DirWriter',
+76 error   fstream_stack:
+76 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+76 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+76 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+77 error Please try running this command again as root/Administrator.
+78 verbose exit [ -13, true ]
+79 verbose unbuild lib/node_modules/request
+80 silly gentlyRm /usr/local/lib/node_modules/request is being purged from base /usr/local
+81 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/request
