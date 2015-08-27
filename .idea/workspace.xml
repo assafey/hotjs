@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0faafdbb-5e0a-4a69-b194-cabff2805f48" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/customer_packages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/callbackHandler.js" afterPath="$PROJECT_DIR$/lib/callbackHandler.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/customer.js" afterPath="$PROJECT_DIR$/lib/customer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/hotjs.js" afterPath="$PROJECT_DIR$/lib/hotjs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/package.js" afterPath="$PROJECT_DIR$/lib/package.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/technician.js" afterPath="$PROJECT_DIR$/lib/technician.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/lib/hotjs.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <caret line="215" column="26" selection-start-line="215" selection-start-column="26" selection-end-line="215" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -41,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/lib/package.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+              <caret line="157" column="43" selection-start-line="157" selection-start-column="43" selection-end-line="157" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -51,27 +54,37 @@
         <entry file="file://$PROJECT_DIR$/lib/customer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
+              <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="technician.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="technician.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/technician.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.9527028">
-              <caret line="218" column="4" selection-start-line="218" selection-start-column="4" selection-end-line="218" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="callbackHandler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/callbackHandler.js">
+      <file leaf-file-name="customer_packages.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/customer_packages.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <caret line="91" column="70" selection-start-line="91" selection-start-column="70" selection-end-line="91" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="callbackHandler.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/callbackHandler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8445946">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -113,12 +126,14 @@
         <option value="$PROJECT_DIR$/lib/couchbase.js" />
         <option value="$PROJECT_DIR$/lib/mongo.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/lib/package.js" />
         <option value="$PROJECT_DIR$/lib/logger.js" />
-        <option value="$PROJECT_DIR$/lib/callbackHandler.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/lib/callbackHandler.js" />
+        <option value="$PROJECT_DIR$/lib/customer_package.js" />
+        <option value="$PROJECT_DIR$/lib/package.js" />
         <option value="$PROJECT_DIR$/lib/customer.js" />
+        <option value="$PROJECT_DIR$/lib/customer_packages.js" />
         <option value="$PROJECT_DIR$/lib/hotjs.js" />
         <option value="$PROJECT_DIR$/lib/technician.js" />
       </list>
@@ -581,11 +596,17 @@
       <option name="project" value="LOCAL" />
       <updated>1440352378362</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="remote couchbase!!">
+      <created>1440449743870</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1440449743870</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41220000" />
+    <option name="totallyTimeSpent" value="52061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="34" width="1371" height="797" extended-state="0" />
@@ -633,7 +654,8 @@
     <MESSAGE value="Structure of the app initialization and objects" />
     <MESSAGE value="again: Structure of the app initialization and objects" />
     <MESSAGE value="customer, package full support, partially technician support" />
-    <option name="LAST_COMMIT_MESSAGE" value="customer, package full support, partially technician support" />
+    <MESSAGE value="remote couchbase!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="remote couchbase!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -917,14 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/package.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2222222">
@@ -933,34 +947,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/logger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/callbackHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/couchbase/lib/couchbase.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2027027">
           <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/couchbase/lib/bucket.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.855856">
-          <caret line="996" column="0" selection-start-line="996" selection-start-column="0" selection-end-line="996" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -981,14 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/customer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/collection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1981982">
@@ -997,18 +979,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/hotjs.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/couchbase/lib/bucket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="1387" column="0" selection-start-line="1387" selection-start-column="0" selection-end-line="1387" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/technician.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.9527028">
-          <caret line="218" column="4" selection-start-line="218" selection-start-column="4" selection-end-line="218" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/package.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="157" column="43" selection-start-line="157" selection-start-column="43" selection-end-line="157" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/logger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/hotjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="215" column="26" selection-start-line="215" selection-start-column="26" selection-end-line="215" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/customer_packages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="70" selection-start-line="91" selection-start-column="70" selection-end-line="91" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/customer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/callbackHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8445946">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding />
         </state>
       </provider>
