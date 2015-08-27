@@ -1,6 +1,6 @@
 'use strict';
 
-var hot = require('./lib/hotjs');
+var hot = require('./lib/hot');
 
 if (hot === undefined) {
     console.log("hot undefined");
